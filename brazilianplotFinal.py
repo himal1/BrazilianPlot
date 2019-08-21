@@ -355,8 +355,8 @@ def main():
         label = "%d" % (theta_B*10)
         labels.append(label)
 
-#    createMakeFileThetaB(labels,values) #Himal block
-#    executeDataCards(labels)
+    createMakeFileThetaB(labels,values) #Himal block
+    executeDataCards(labels)
     plotUpperLimits(labels,values)
 
 
